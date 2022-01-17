@@ -1,0 +1,21 @@
+h1{
+	font-size: 50px;
+	background-color: cadetblue;
+	text-align: center;
+}
+h2{
+	font-size: 40px;
+	background-color: greenyellow;
+}
+
+img {
+	width: 300px;
+
+}
+
+#Löwe{
+	float: left;
+}
+#Sport{
+	border: 30px
+}

@@ -1,0 +1,16 @@
+h1{
+	font-size: 50px;
+	background-color: cadetblue;
+	text-align: center;
+}
+h2{
+	font-size: 40px;
+	background-color: greenyellow;
+}
+#goal{
+	background-color: red
+
+}
+:root{
+	scroll-behavior: smooth;
+}

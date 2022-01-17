@@ -1,0 +1,35 @@
+h2{
+	padding: 50px;
+	margin: 20px;
+}
+
+.grad1{
+	background: radial-gradient(circle, rgba(238,174,202,1) -1%, rgba(148,187,233,1) 100%);
+}
+
+h3{
+	padding: 50px;
+	margin: 20px;
+}
+
+.grad2{
+    background: linear-gradient(77deg, rgba(63,224,136,1) 39%, rgba(252,69,162,1) 100%);
+}
+
+h4{
+	padding: 50px;
+	margin: 20px;
+}
+
+.grad3{
+	background: linear-gradient(180deg, rgba(63,224,220,1) 0%, rgba(224,155,63,1) 25%, rgba(224,65,63,1) 39%, rgba(116,124,181,1) 56%, rgba(69,252,112,1) 100%);
+}
+
+h5{
+	padding: 50px;
+	margin: 20px;
+}
+
+.grad4{
+	background: radial-gradient(circle, rgba(63,94,251,1) 11%, rgba(112,88,213,1) 46%, rgba(142,88,213,1) 90%);
+}

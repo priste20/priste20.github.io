@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Comforter&family=Gochi+Hand&family=Merriweather:wght@300&family=Share+Tech+Mono&family=Source+Serif+Pro:wght@200&display=swap');
+
+h1{
+	background-color: lightcoral;
+	padding: 50px;
+	font-size: 60px;
+	text-align: center;
+	font-weight: bold;
+	letter-spacing: 5px;
+	font-family: "Source Serif Pro";
+}
+
+h2{
+	padding: 30px;
+    background-color: lightblue;
+    font-size: 60px;
+    text-align: right;
+    font-family: "Caveat";
+}
+
+p{
+
+    padding: 30px;
+    font-size: 25px;
+    text-align: justify;
+    column-count: 3;
+    line-height: 1.7;
+    font-family: "Open Sans";
+}
+.name{
+	font-family: "Share Tech Mono";
+    font-size: 50px;
+    padding: 50px;
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 20px;
+    transform: rotate(-5deg);
+}
+body{
+    background: linear-gradient(180deg, rgba(63,224,220,1) 0%, rgba(224,155,63,1) 25%, rgba(224,65,63,1) 39%, rgba(116,124,181,1) 56%, rgba(69,252,112,1) 100%);
+}

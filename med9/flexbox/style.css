@@ -1,0 +1,58 @@
+h2{
+    background-color: red;
+}
+
+.first-try{
+	justify-content: center;
+    background-color: lightblue;
+    align-items: center;
+    height: 400px;
+    display: flex;
+}
+
+.second-try{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	height: 400px;
+	background-color: lightgreen;
+
+}
+
+p{
+	background-color: red;
+}
+
+.third-try{
+	display: flex;
+	height: 400px;
+	background-color: pink;
+	align-items: flex-end;
+	justify-content:space-around;
+}
+
+img{
+	width: 250px;
+}
+
+.fourth-try{
+	display: flex;
+	height: 400px;
+	background: radial-gradient(circle, rgba(238,174,202,1) -1%, rgba(148,187,233,1) 100%);
+	justify-content: center;
+	align-items: center;
+}
+
+img{
+	width: 250px;
+}
+
+h1{
+	background-color: yellow;
+	font-size: 50px;
+	font-family: fantasy;
+	display: flex;
+	height: 200px;
+	justify-content: center;
+	align-items: center;
+}

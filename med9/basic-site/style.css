@@ -1,0 +1,137 @@
+/*
+*
+*Title:Eine website über Australien
+*Author:Prishila Sterkaj
+*Date:28.03.2022
+*
+*/
+
+/**********************************General Styling**********************************/
+
+ body{
+ 	margin: 0;
+ }
+
+/* Navigation */
+
+nav{
+	background-color: steelblue;
+	padding: 30px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav img{
+	height: 80px;
+	border-radius: 50%;
+
+}
+
+nav ul{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	list-style-type: none;
+}
+ nav ul li a{
+ 	margin: 10px;
+ 	padding: 20px;
+ 	background-color: white;
+    color: steelblue;
+    text-decoration: none;
+    border-radius: 10px;
+ }
+
+ nav ul li a:hover {
+ 	background-color: darkblue;
+ 	color: white;
+ }
+
+ /* Header */
+
+ header{
+ 	height: 400px;
+ 	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+ 	background-size: cover;
+ 	background-position: center;
+
+ }
+
+ header h1{
+ 	padding: 30px;
+ 	background-color:  rgba(255,255,255,0.7);
+ 	font-size: 40px;
+ 	border-radius: 20px;
+ 	color: steelblue;
+ }
+
+ /* Main */
+ main{
+ 	padding: 80px;
+ }
+
+ /* footer */
+
+ footer{
+ 	display: flex;
+ 	justify-content: space-evenly;
+ 	align-items: center;
+ 	height: 300px;
+ 	background: linear-gradient(180deg, rgba(63,224,220,1) 0%, rgba(224,155,63,1) 25%, rgba(224,65,63,1) 39%, rgba(116,124,181,1) 56%, rgba(69,252,112,1) 100%);
+
+ }
+
+footer p{
+	padding: 30px;
+	font-size: 20px;
+	color: steelblue;
+	background-color: rgba(255;255;255;0.7);
+}
+
+/************************************************* Page Styling ***********************************************************/
+
+/*Home Page*/
+#home header {
+	background-image: url("bg.jpg");
+}
+
+#home main{
+	background-color: lightcoral;
+}
+#home main h2 {
+	background-color: white;
+}
+
+/*Animal Page*/
+#animals header {
+	background-image: url("animal.jpg");
+	}
+
+#animals main {
+		background-color: lightblue;
+	}
+ 
+#animals section {
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+}
+
+#animals section .left {
+	width: 30%;
+	background-color: lightsteelblue;
+}
+
+#animals section .right {
+	width: 70%;
+	background-color: lightgreen;
+}
+
+/* Cities Page*/
+#cities header {
+	background-image: url("Cities.jpg");
+}
+

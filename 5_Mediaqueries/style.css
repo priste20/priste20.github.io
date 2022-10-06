@@ -1,0 +1,55 @@
+/*Die Padding-Werte werdenzur angegeben breite hinzugezählt.
+Daher ergibt sich ein Wert von der Über 100%! nav,article und aside passen daher nicht neveneinander.
+Box-sizing:border-box...Größenangaben umfassen das ganze element.
+(inkl,Margin,Padding,...)*/
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	/*Wörter die über einen Container hinausragen,werden in der nächsten Zeile weiter gefühlt.*/
+	word-wrap: break-word;
+}
+/*Design für Smartphones*/
+header,nav,article,aside{
+	width: 100%;
+}
+header{
+	background-color: lightyellow;
+	padding: 25px;
+}
+nav{
+	background-color: lightcoral;
+	padding: 25px;
+	
+}
+article{
+	background-color: lightpink;
+	padding: 25px;
+	
+}
+aside{
+	background-color: lightblue;
+	padding: 25px;
+
+}
+
+
+/*Designt for Desktop: Trenlinie zw. Smartphones/Tablets und Desktops: 768px*/
+@media(min-width: 768px){
+	nav{
+		width: 25%;
+		float: left;
+	}
+	article{
+       width: 50%;
+		float: left;
+	}
+	aside{
+		width: 25%;
+		float: left;
+	}
+	.container{
+	width: 70%;
+	margin: auto;/*richtet die Bereiche mitting aus*/
+}
+}
